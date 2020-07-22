@@ -17,9 +17,6 @@ namespace App1.Logica
 
         public Celular ConstruirCelular(string modelo)
         {
-            // TODO : Materias primas?
-            // TODO : Desperdicios?
-
             return new Celular()
             {
                 Marca = Nombre,
@@ -34,9 +31,6 @@ namespace App1.Logica
 
         public Automovil ConstruirAutomovil(string modelo)
         {
-            // TODO : Materias primas?
-            // TODO : Desperdicios?
-
             return new Automovil()
             {
                 Marca = Nombre,
